@@ -42,11 +42,15 @@ h1{
     overflow: hidden
 }
 .fuzzy-overlay {
-            position: absolute;
+            position: fixed;
             inset: -200%;
             background-image: url("noise.png");
+            top: -50%;      
+             left: -50%;
+            width: 200%;    
+            height: 200%;
             opacity: 15%;
-            z-index: 0;
+            z-index: 9999;
             /* pointer-events: none; */
 
             animation: shift 0.2s linear infinite both;
@@ -75,6 +79,6 @@ h1{
 html, body {
   overflow-x: hidden;
 }
-.fuzzy-overlay, body, .container, .content {
+body {
   position: relative
 }
