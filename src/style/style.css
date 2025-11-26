@@ -71,3 +71,10 @@ h1{
         
     }
 }
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
