@@ -75,6 +75,6 @@ h1{
 html, body {
   overflow-x: hidden;
 }
-body {
+.fuzzy-overlay, body {
   position: relative
 }
