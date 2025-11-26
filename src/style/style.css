@@ -5,7 +5,7 @@ background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: scroll;
-min-height: 100%;
+min-height: unset !important;
 text-align: center;
 overflow-x: hidden;
 overflow: hidden;
